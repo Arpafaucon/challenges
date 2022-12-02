@@ -10,13 +10,13 @@ env:
   CARGO_TERM_COLOR: always
 
 jobs:
-  build:
-
+  aoc_2022:
     runs-on: ubuntu-latest
-
+    defaults:
+      run:
+        working-directory: aoc
     steps:
     - uses: actions/checkout@v3
-    - run: cd aoc
     - name: Build
       run: cargo build --verbose
     - name: Run tests
