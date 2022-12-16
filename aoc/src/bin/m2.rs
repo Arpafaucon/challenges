@@ -104,7 +104,7 @@ fn strategy_b(mut line_chars: std::str::Chars) -> i8 {
 }
 
 fn main() {
-    let lines = read_lines("./data/2a.txt").unwrap();
+    let lines = read_lines("./data/2a.txt");
     let mut total_score: i64 = 0;
     // Consumes the iterator, returns an (Optional) String
     for line in lines {

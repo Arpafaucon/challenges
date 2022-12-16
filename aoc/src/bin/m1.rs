@@ -6,7 +6,7 @@ fn main() {
     let mut top_elf_calories: Vec<i64> = vec![];
     // File hosts must exist in current path before this produces output
 
-    let lines = read_lines("./data/1a.txt").unwrap();
+    let lines = read_lines("./data/1a.txt");
     // Consumes the iterator, returns an (Optional) String
     for line in lines {
         if let Ok(ip) = line {
