@@ -21,3 +21,14 @@ jobs:
       run: cargo build --verbose
     - name: Run tests
       run: cargo test --verbose
+  aoc_2025:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: aoc025
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build
+      run: cargo build --verbose
+    - name: Run tests
+      run: cargo test --verbose
