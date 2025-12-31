@@ -6,7 +6,7 @@ This repo gathers all my algorithmic / code challenges. I do those on my free ti
 
 | folder    | language | description                                                                                                   |
 | --------- | -------- | ------------------------------------------------------------------------------------------------------------- |
-| `aoc2025`     | Rust     | (WIP) Advent Of Code 2025                                                                                    |
+| [`aoc2025`](./aoc2025/README.md)     | Rust     | (WIP) Advent Of Code 2025                                                                                    |
 | [`aoc2022`](./aoc2022/README.md)     | Rust     | Advent Of Code 2022                                                                                     |
 | `aoc2021` | Python   | some small bits of Advent Of Code 2021                                                                        |
 | `lc` | Python    | Various leetcode stuff |
